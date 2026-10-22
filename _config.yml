@@ -1,0 +1,14 @@
+title: Методичка по археологии
+description: Учебно-справочный ресурс по археологии
+
+collections:
+  topics:
+    output: true
+    permalink: /topics/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: topics
+    values:
+      layout: default
